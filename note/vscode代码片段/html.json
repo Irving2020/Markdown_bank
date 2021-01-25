@@ -1,0 +1,160 @@
+{
+	"scr": {
+		"prefix": "scr",
+		"body": [
+			"<script type=\"text/javascript\" >",
+			"$0",
+			"</script>"
+		],
+		"description": "<script type=\"text/javascript\"></script>"
+	},
+	
+	"scr1": {
+		"prefix": "scr1",
+		"body": [
+			"<script type=\"text/javascript\" src=\"$0\"></script>"
+		],
+		"description": "<script type=\"text/javascript\" src=\"\"></script>"
+	},
+
+	"scrb": {
+		"prefix": "scrb",
+		"body": [
+			"<script type=\"text/babel\">$0</script>"
+		],
+		"description": "<script type=\"text/babel\" src=\"\"></script>"
+	},
+	"csl": {
+		"prefix": "csl",
+		"body": [
+			"console.log($0)",
+		],
+		"description": "console.log()"
+	},
+
+	"CreateReactComponent": {
+		"prefix": "MyComponent",
+		"body": [
+			"import React,{Component} from 'react'\n",
+			"export default class MyComponent$0 extends Component{",
+			"  render(){",
+			"    return (",
+			"      <div></div>",
+			"    )",
+			"  }",
+			"}"
+		],
+		"description": "React×é¼þ"
+	},
+
+	"df": {
+		"prefix": "df",
+		"body": [
+			"()=>{",
+			"  //函数体", 
+			"}",
+		],
+		"description": "¼ýÍ·º¯Êý"
+	},
+
+	"f1": {
+		"prefix": "f1",
+		"body": [
+			"for (var i=0; i<xxxxxxx.length; i++ ){",
+			"  //循环内容",
+			"}",
+		],
+		"description": "forÑ­»·1"
+	},
+
+	"f2": {
+		"prefix": "f2",
+		"body": [
+			"for (var j=0; j<xxxxxxx.length; j++ ){",
+			"  //Ñ­»·ÌåÄÚÈÝ$0",
+			"}",
+		],
+		"description": "forÑ­»·2"
+	},
+
+	"fori": {
+		"prefix": "fori",
+		"body": [
+			"for (let index in arr){",
+			"  console.log(arr[index])",
+			"}",
+		],
+		"description": "for-in±éÀú"
+	},
+
+	"dfi": {
+		"prefix": "dfi",
+		"body": [
+			"()=>{$0}"
+		],
+		"description": "箭头函数"
+	},
+
+	"did": {
+		"prefix": "did",
+		"body": [
+			"document.getElementById('$0')"
+		],
+		"description": "document.getElementById"
+	},
+
+	"dq": {
+		"prefix": "dq",
+		"body": [
+			"document.querySelector('$0')"
+		],
+		"description": "document.querySelector"
+	},
+
+	"dqa": {
+		"prefix": "dqa",
+		"body": [
+			"document.querySelectorAll('$0')"
+		],
+		"description": "document.querySelectorAll"
+	},
+
+	"dtag": {
+		"prefix": "dtag",
+		"body": [
+			"document.getElementsByTagName('$0')"
+		],
+		"description": "document.getElementsByTagName"
+	},
+	"jw": {
+		"prefix": "jw",
+		"body": [
+			"javascript:;"
+		],
+		"description": "javascript:;"
+	},
+	"isR": {
+		"prefix": "isR",
+		"body": [
+			"isRequired"
+		],
+		"description": "javascript:;"
+	},
+	"HTML Snippets": {
+		"prefix": "!!",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html>",
+			"\t<head>",
+			"\t\t<meta charset=\"UTF-8\" />",
+			"\t\t<title>Document</title>",
+			"\t</head>",
+			"\t<body>",
+			"\t\t$0",
+			"\t</body>",
+			"</html>"
+		],
+		"description": "HTML Template"
+	}
+
+}

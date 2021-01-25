@@ -1,0 +1,154 @@
+{
+	"csl": {
+		"prefix": "csl",
+		"body": [
+			"console.log($0)",
+		],
+		"description": "打印log"
+	},
+	"React": {
+		"prefix": "React",
+		"body": [
+			"React"
+		],
+		"description": "javascript:;"
+	},
+	"React.Component": {
+		"prefix": "React.Component",
+		"body": [
+			"React.Component"
+		],
+		"description": "javascript:;"
+	},
+	"render": {
+		"prefix": "render",
+		"body": [
+			"render"
+		],
+		"description": "javascript:;"
+	},
+	"MyComponent": {
+		"prefix": "MyComponent",
+		"body": [
+			"import React,{Component} from 'react'\n",
+			"export default class MyComponent$0 extends Component{",
+			"  render(){",
+			"    return (",
+			"      <div></div>",
+			"    )",
+			"  }",
+			"}"
+		],
+		"description": "React类组件"
+	},
+	"df": {
+		"prefix": "df",
+		"body": [
+			"()=>{",
+			"  //函数体$0", 
+			"}",
+		],
+		"description": "0826专用的箭头函数"
+	},
+	"f1": {
+		"prefix": "f1",
+		"body": [
+			"for (var i=0; i<xxxxxxx.length; i++ ){",
+			"  //循环体",
+			"}",
+		],
+		"description": "for循环"
+	},
+	"forin": {
+		"prefix": "forin",
+		"body": [
+			"for (let index in arr){",
+			"  console.log(arr[index])",
+			"}",
+		],
+		"description": "for-in循环"
+	},
+	"did": {
+		"prefix": "did",
+		"body": [
+			"document.getElementById('$0')"
+		],
+		"description": "document.getElementById"
+	},
+	"dq": {
+		"prefix": "dq",
+		"body": [
+			"document.querySelector('$0')"
+		],
+		"description": "document.querySelector"
+	},
+	"dqa": {
+		"prefix": "dqa",
+		"body": [
+			"document.querySelectorAll('$0')"
+		],
+		"description": "document.querySelectorAll"
+	},
+	"dtag": {
+		"prefix": "dtag",
+		"body": [
+			"document.getElementsByTagName('$0')"
+		],
+		"description": "document.getElementsByTagName"
+	},
+	"jw": {
+		"prefix": "jw",
+		"body": [
+			"javascript:;"
+		],
+		"description": "javascript:;"
+	},
+	"scr": {
+		"prefix": "scr",
+		"body": [
+			"<script type=\"text/javascript\">"
+		],
+		"description": "scr"
+	},
+	"dfi": {
+		"prefix": "dfi",
+		"body": [
+			"()=>{$0}"
+		],
+		"description": "箭头函数"
+	},
+	"dfp": {
+		"prefix": "dfp",
+		"body": [
+			"value => {$0},",
+			"reason => {}",
+		],
+		"description": "Promise回调"
+	},
+	"dfa": {
+		"prefix": "dfa",
+		"body": [
+			"response => {$0},",
+			"error => {}",
+		],
+		"description": "axios回调"
+	},
+	"crc": {
+		"prefix": "crc",
+		"body": [
+			"class $0 extends React.Component{",
+			"  render(){",
+			"    return <h1>hello</h1>",
+			"  }",
+			"}"
+		],
+		"description": "React类组件"
+	},
+	"rdr": {
+		"prefix": "rdr",
+		"body": [
+			"ReactDOM.render(<$1/>,document.getElementById('$0'))",
+		],
+		"description": "rdr"
+	},
+}
